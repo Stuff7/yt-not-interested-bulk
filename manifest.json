@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube not interested bulk click",
+  "version": "1.0",
+  "description": "Tell YouTube you're not interested in any of the recommendations shown on screen by pressing F1.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["src/script.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-not-interested-bulk@example.com"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "yt-not-interested-bulk",
+  "version": "1.0.0",
+  "description": "Tell YouTube you're not interested in any of the recommendations shown on screen.",
+  "main": "src/script.js",
+  "author": "Armando",
+  "license": "MIT",
+  "scripts": {
+    "build": "web-ext build --artifacts-dir build --overwrite-dest --filename yt-not-interested-bulk.xpi"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-plugin-jsdoc": "^44.2.4"
+  }
+}
